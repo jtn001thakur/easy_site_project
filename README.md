@@ -26,33 +26,33 @@ Node.js, Express.js, MongoDB, Mongoose, JWT, bcrypt, Swagger UI, Nodemon, Render
 ## 📂 Project Folder Structure
 
 backend/
-├── src/
-│ ├── config/
-│ │ └── db.js
-│ │
-│ ├── controllers/
-│ │ ├── auth.controller.js
-│ │ └── product.controller.js
-│ │
-│ ├── middlewares/
-│ │ ├── auth.middleware.js
-│ │ └── role.middleware.js
-│ │
-│ ├── models/
-│ │ ├── user.model.js
-│ │ └── product.model.js
-│ │
-│ ├── routes/
-│ │ ├── auth.routes.js
-│ │ └── product.routes.js
-│ │
-│ └── server.js
-│
-├── .env
-├── .gitignore
-├── package.json
-└── README.md
+  src/
 
+    config/
+      db.js
+    
+    controllers/
+      auth.controller.js
+      product.controller.js
+    
+    middlewares/
+      auth.middleware.js
+      role.middleware.js
+    
+    models/
+      user.model.js
+      product.model.js
+    
+    routes/
+      auth.routes.js
+      product.routes.js
+    
+    server.js
+  
+  .env
+  .gitignore
+  package.json
+  README.md
 
 ---
 
