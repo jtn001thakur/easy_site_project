@@ -119,10 +119,6 @@ An example environment file is provided as `env.txt`.
 ### Steps to configure environment variables:
 
 1. Rename the `env.txt` file to `.env`
-2. Update the values according to your local or production setup
-
-```bash
-cp env.txt .env
 
 ---
 
