@@ -49,12 +49,9 @@ backend/
     
     server.js
   
-  .env
-
-  .gitignore
-
-  package.json
-
+  .env  
+  .gitignore  
+  package.json  
   README.md
 
 ---
