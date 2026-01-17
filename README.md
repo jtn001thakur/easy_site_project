@@ -29,7 +29,8 @@ backend/
   src/
 
     config/
-      db.js
+      db.js  
+      swagger.js
     
     controllers/
       auth.controller.js
