@@ -54,7 +54,7 @@ backend/
   .gitignore
 
   package.json
-  
+
   README.md
 
 ---
@@ -113,13 +113,13 @@ Authorization: Bearer <JWT_TOKEN>
 ---
 
 ## ⚙ Environment Variables
-PORT=3000
-MONGO_URI=mongodb+srv://jtn001thakur:Jtn$0101@cluster0.d1umh.mongodb.net/easy_site
+PORT=3000  
+MONGO_URI=mongodb+srv://jtn001thakur:Jtn$0101@cluster0.d1umh.mongodb.net/easy_site  
 JWT_SECRET=supersecret
 
 ---
 
 ## ▶️ Run Project Locally
 
-npm install
+npm install  
 npm run dev
