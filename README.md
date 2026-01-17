@@ -110,10 +110,19 @@ Authorization: Bearer <JWT_TOKEN>
 
 ---
 
-## ⚙ Environment Variables
-PORT=3000  
-MONGO_URI=mongodb+srv://jtn001thakur:Jtn$0101@cluster0.d1umh.mongodb.net/easy_site  
-JWT_SECRET=supersecret
+## Environment Variables Setup
+
+For security reasons, the actual `.env` file is not committed to the repository.
+
+An example environment file is provided as `env.txt`.
+
+### Steps to configure environment variables:
+
+1. Rename the `env.txt` file to `.env`
+2. Update the values according to your local or production setup
+
+```bash
+cp env.txt .env
 
 ---
 
