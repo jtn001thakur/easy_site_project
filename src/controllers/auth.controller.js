@@ -19,7 +19,7 @@ const register = async (req, res, next) => {
       role,
     });
 
-    res.status(201).json({ message: "User registered successfully" });
+    return res.status(201).json({ message: "User registered successfully" });
   } catch (error) {
     next(error);
   }
@@ -43,7 +43,7 @@ const login = async (req, res, next) => {
       { expiresIn: "1d" }
     );
 
-    res.json({ token });
+    return res.status(200).json({ token });
   } catch (error) {
     next(error);
   }
